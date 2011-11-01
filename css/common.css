@@ -1,0 +1,197 @@
+
+
+/*_____common________________________________________*/
+
+html, body, #container{
+	height:100%;
+}
+html{
+	background:#d4e3ee url(../images/gradient.jpg) repeat-x;
+	font:12px Trebuchet MS, Arial, Tahoma, Verdana, sans-serif;
+	color:#4f7276;
+	overflow:auto;
+}
+body{
+	margin:0;
+}
+#container{
+	width:1000px;
+	margin:0 auto;
+}
+#main{
+	min-height:100%;
+/* 	height:100%; */
+	margin:0 0 -125px;
+/* 	background:#ccc; */
+}
+#all{
+	overflow:hidden;
+	padding:0 0 128px;
+/* 	min-height:100%; */
+ /* 	background:#acf; */ 
+	position:relative;
+}
+
+/*____footer________________________________*/
+
+#footer{
+	overflow:hidden;
+	min-width:100%;
+	min-height:125px;
+/* 	background:#cfe; */
+}
+/* #footer p{
+	font:0.9em HelveticaNeueCyrRoman;
+	color:#676767;
+	margin-top:36px;
+	margin-left:20px;
+} */
+
+/*____logo________________________________*/
+
+#logo{
+	position:absolute;
+	height:410px;
+	width:300px;
+	background:url(../images/house.png);
+	background-position:0 105px;
+	background-repeat:no-repeat;
+}
+#button1{
+	position:absolute;
+	left:33px;
+	top:90px;
+	height:29px;
+	width:29px;
+	}
+#business{
+	position:absolute;
+	top:87px;
+	left:75px;
+	font:0.9em Trebuchet MS;
+	text-align:left;
+	color:#8bc5d9;
+}
+#business span{
+	font:1.8em Trebuchet MS;
+	color:#fff;
+}
+#business span+span{
+	color:#8bc5d9 !important;
+}
+
+/*_____header__________________________*/
+
+#header{
+	float:right;
+	width:700px;
+	height:194px;
+	background:url(../images/fon2.png);
+/* 	background-position:0 105px; */
+	background-repeat:no-repeat;
+/* 	background:#cfe; */
+}
+table.menu{
+	width:100%;
+	text-align:top;
+	margin-top:50px;
+	margin-left:0;
+}
+table.menu td{
+	border-left:1px solid #8bc5d9;
+/* 	width:415px; */
+	padding:20px 0 38px 38px;
+	vertical-align:top;
+}
+.aliquam{
+	font:1.3em Trebuchet MS;
+	color:#fff;
+}
+#fusce{
+	font:1.0em Trebuchet MS;
+	color:#8bc5d9;
+	display:block;
+	margin-top:10px;
+}
+#form{
+	width:177px;
+	height:28px;
+/* 	font:1.0em HelveticaNeueCyrRoman; */
+	border:0;
+	background-color:#023e74;
+	padding-left:10px;
+	opacity:0.6;
+	margin-right:12px;
+	margin-top:10px;
+}
+/* .form:focus { 
+	outline: none; 
+} */
+#img1{
+position:absolute;
+top:103px;
+}
+
+/*_____main_table_________________________*/
+
+#center{
+	width:1000px;
+	height:832px;
+/* 	background:#ccc; */
+ 	margin-top:194px;
+	position:relative;
+}
+
+ #maintab {
+	width:100%;
+	height:832px;
+	border:1px solid #000; 
+	table-layout:fixed;
+	border-collapse:collapse; 
+	font:1em Trebuchet MS;
+	color:#000;
+/*	border-spacing:0; */
+/* 	padding:30px; */
+}
+#maintab td{
+	padding:30px;
+	border:1px solid #000;
+	vertical-align:top;
+	height:1px; /* Устанавливает haslayout чтобы держалась высота ячеек в ie7 Высота ячеек выставлена в html через tr */
+}
+td.fontab{
+	background:url(../images/band1.jpg);
+	background-repeat:no-repeat;
+} 
+#fontab_2{
+	background:url(../images/band2.jpg);
+	background-repeat:no-repeat;
+	background-color:#fff;
+}
+.title_1{
+	position:relative; 
+	font:1em Trebuchet MS;
+	color:#fff;
+	text-align:left;
+	margin-top:-15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

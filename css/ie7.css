@@ -1,0 +1,33 @@
+#footer{
+	zoom:expression(
+		runtimeStyle.zoom = 1,
+		innerHTML += '<b class="png lt"></b><b class="png rt"></b>'
+	)
+}
+#form{
+	width:177px;
+	height:23px;
+	border:0;
+	background-color:#023e72;
+	padding-left:10px;
+ 	padding-top:6px;
+	padding-bottom:0;
+	margin-right:12px;
+	margin-top:10px;
+	zoom:1;
+}
+#header{
+	float:right;
+	width:700px;
+	height:194px;
+	background:url(../images/fon2.png);
+	background-repeat:no-repeat;
+	zoom:1;
+}
+/* #cel1{
+	height:10px;
+} */
+
+
+
+
