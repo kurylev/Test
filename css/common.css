@@ -190,7 +190,12 @@ td.gradient{
  	background:url(../images/band1.jpg);
 	background-repeat:no-repeat; 
 }
-
+.foto_left{
+ 	background:url(../images/foto_1.jpg);
+	background-repeat:no-repeat; 
+	height:46px;
+	width:300px;
+}
 
 
 
