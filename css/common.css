@@ -178,23 +178,27 @@ td.gradient{
 }
 .title_1{
 	position:relative; 
-	height:46px;
-	width:300px;
+	width:270px;
+	height:31px;
+	padding:15px 0 0 30px;
+	top:-30px;
+	left:-30px;
 	font:1em Trebuchet MS;
 	color:#fff;
 	text-align:left;
-	padding-top:15px;
-	padding-left:30px;
-	top:-30px;
-	left:-30px;
  	background:url(../images/band1.jpg);
 	background-repeat:no-repeat; 
 }
-.foto_left{
+.fotoleft{
  	background:url(../images/foto_1.jpg);
 	background-repeat:no-repeat; 
-	height:46px;
-	width:300px;
+	width:240px;
+	height:92px;
+	margin:0;
+}
+.fotoleft.two{
+ 	background:url(../images/foto_2.jpg);
+	background-repeat:no-repeat;	
 }
 
 
