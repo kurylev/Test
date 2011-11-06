@@ -145,7 +145,8 @@ top:103px;
  #maintab {
 	width:100%;
 	height:832px;
-	border:1px solid #000; 
+/* 	border:1px solid #000; */
+	border-spacing:0;
 	table-layout:fixed;
 	border-collapse:collapse; 
 	font:1em Trebuchet MS;
@@ -155,10 +156,11 @@ top:103px;
 }
 #maintab td{
 	padding:30px;
-	border:1px solid #000;
+/* 	border:1px solid #000; */
 	vertical-align:top;
 	height:1px; /* Устанавливает haslayout чтобы держалась высота ячеек в ie7 Высота ячеек выставлена в html через tr */
 }
+
 td.gradient{
 /* 	background:url(../images/band1.jpg);
 	background-repeat:no-repeat; */
@@ -196,23 +198,154 @@ td.gradient{
 	height:92px;
 	margin:0;
 }
+
 .fotoleft.two{
  	background:url(../images/foto_2.jpg);
 	background-repeat:no-repeat;	
 }
+.texleft{
+	font:0.8em Trebuchet MS;
+	color:#37585d;
+	text-align:left;
+	line-height:2em;
+	margin-top:19px;
+	/* zoom:normal; */
+}
+a:link {color:#cc0000;}
+a:visited {color:#6600cc;}
 
+/*____________________________________Right___________________________________*/
 
-
-
-
-
-
-
-
-
-
-
-
+ul.menu2 {margin:-10px 0 0 -23px; 
+		padding:0; 
+		min-width:640px;
+		
+}
+/* .menu2 li {
+	list-style:none;
+	padding: 4px 25px;
+	display:inline;
+	height:38px;
+	margin-top:19px;
+	background:#ccc; 
+	white-space:nowrap;
+} */
+.menu2 li {
+	float:left;
+	width:102px;
+	text-align:center;
+	list-style:none;
+	height:39px;
+	/* padding-top:10px; */
+	border-right:2px #3399cc solid; 
+	border-right-style:groove;
+	/*line-height:3.5em; */
+	/* background:#ccc; */
+}
+li a:link {
+	display:block;
+	margin-top:10px;
+	font:1.3em Trebuchet MS;
+	color:#fff;
+	text-decoration:none; 
+	white-space:nowrap;
+}
+#none{
+	border-right:0;
+}
+#zet1{
+	width:98px;
+}
+#zet2{
+	width:105px;
+}
+#left291{
+	position:relative;
+	width:291px;
+	height:642px;
+	padding:5px 30px 30px;
+	margin-left:-30px;
+	margin-top:85px;
+	border-right:1px #d6e4e8 solid;
+	zoom:normal;
+}
+#Veroeros{
+	font:2.3em Trebuchet MS;
+	color:#135b65;
+}
+.red{
+	color:#cc0000;
+}
+#tel{
+	position:relative;
+	width:104px;
+	height:94px;
+	margin:24px 0 0;
+	padding:0;
+ 	background:url(../images/foto3.jpg);
+	background-repeat:no-repeat;		
+}
+#teltex1{
+	position:relative;
+	margin:-95px 0 0 130px;
+	padding:0;
+	height:93px;
+	font:0.8em Trebuchet MS;
+	color:#37585d;
+	text-align:left;
+	line-height:2em;
+}
+#left291>.texleft span{
+	text-decoration:underline;
+}
+.texleft+div{
+	font:1.6em Trebuchet MS;
+	color:#165772;
+	text-align:left;
+	margin-top:50px;
+}
+.texleft+div span{
+	color:#cc0000;
+}
+#dolore{/* 
+	border-spacing: 0 1px; */
+	margin:30px 0 0;
+	padding:0;
+}
+#dolore tr{
+	height:41px;
+	padding:0;
+}
+#dolore td{
+	padding:0;
+	height:1px;
+	vertical-align:middle;
+}
+.tr1{
+	background:#d4e3e8;
+}
+.tr2{
+	background:#e7eff2;
+}
+.empty{
+	height:2px !important;
+	padding:0;
+	/* border-collapse:collapse; */
+}
+.cel1{
+	color:#8ca8ac;
+	font:0.9em Trebuchet MS;
+	text-align:center;
+}
+.cel2{
+	color:#589693;
+	font:0.9em Trebuchet MS;
+	text-align:left;
+	text-decoration:underline;
+}
+#dolore+div{
+	margin-top:30px;
+}
 
 
 
