@@ -31,7 +31,7 @@ body{
 /*____footer________________________________*/
 
 #footer{
-	font:0.8em Trebuchet MS;
+	font:0.9em Trebuchet MS;
 	text-align:center;
 	color:#a5ccca;
 	overflow:hidden;
@@ -82,7 +82,7 @@ body{
 }
 table.menu{
 	width:100%;
-	text-align:top;
+	/* text-align:top; */
 	margin-top:50px;
 	margin-left:0;
 }
@@ -110,10 +110,11 @@ table.menu td{
 	opacity:0.6;
 	margin-right:12px;
 	margin-top:10px;
+	color:#fff;
 }
 #img1{
 	position:absolute;
-	top:103px;
+	top:102px;
 }
 
 /*_____main_table_________________________*/
@@ -125,7 +126,7 @@ table.menu td{
 	position:relative;
 }
 
- #maintab {
+#maintab {
 	width:100%;
 	height:832px;
 	border-spacing:0;
@@ -179,7 +180,7 @@ td.gradient{
 	background-repeat:no-repeat;	
 }
 .texleft{
-	font:0.8em Trebuchet MS;
+	font:0.9em Trebuchet MS;
 	color:#37585d;
 	text-align:left;
 	line-height:2em;
@@ -200,7 +201,7 @@ ul.menu2 {margin:-10px 0 0 -23px;
 	text-align:center;
 	list-style:none;
 	height:39px;
-	border-right:2px #3399cc solid; 
+	border-right:2px #66ccff solid; 
 	border-right-style:groove;
 }
 li a:link {
@@ -252,7 +253,7 @@ li a:link {
 	margin:-95px 0 0 130px !important;
 	padding:0;
 	height:93px;
-	font:0.8em Trebuchet MS;
+	font:0.9em Trebuchet MS;
 	color:#37585d;
 	text-align:left;
 	line-height:2em;
@@ -265,7 +266,7 @@ li a:link {
 	font:1.6em Trebuchet MS;
 	color:#165772;
 	text-align:left;
-	margin-top:50px !important;
+	margin-top:45px !important;
 }
 .title1 span{
 	color:#cc0000;
@@ -344,7 +345,7 @@ li a:link {
 	position:relative;
 	width:104px;
 	height:94px;
-	margin:24px 0 0 !important;
+	margin:26px 0 0 !important;
 	padding:0;
  	background:url(../images/foto5.jpg);
 	background-repeat:no-repeat;
@@ -353,12 +354,14 @@ li a:link {
 	position:relative;
 	width:104px;
 	height:94px;
-	margin:24px 0 0 !important;
+	margin:26px 0 0 !important;
 	padding:0;
  	background:url(../images/foto6.jpg);
 	background-repeat:no-repeat;
 }
-
+.end{
+	margin-top:3px;
+}
 
 
 
